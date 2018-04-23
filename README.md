@@ -62,4 +62,4 @@ The key deliverable will be a Jupyter notebook containing:
 * Quantitative assessment of model accuracy
 * Written critical analysis of successes/failures of the model
 
-![Fig 0. Schematic of project workflow](schematic.png)
+![Fig 0. Schematic of project workflow](https://github.com/rbhan/chbe8803-nuclei-identification/blob/master/schematic.png)

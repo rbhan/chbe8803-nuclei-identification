@@ -1,8 +1,8 @@
 # Identifying Cell Nuclei in Divergent Images
 
-Final project for ChBE 8803, based on Kaggle challenge: https://www.kaggle.com/c/data-science-bowl-2018
+Class project for ChBE 8803, based on [Kaggle data science bowl](https://www.kaggle.com/c/data-science-bowl-2018)
 
-Training data: https://www.kaggle.com/c/data-science-bowl-2018/data
+Download training data [here](https://www.kaggle.com/c/data-science-bowl-2018/data)
 
 Milestones:
 * 02/02/18 - Project proposal draft
@@ -11,7 +11,7 @@ Milestones:
 * 03/01/18 - Initial workflow and peer review 
 * 03/30/18 - Final report draft 
 * 04/17/18 - Presentation
-* 04/24/18 - Final report
+* 04/24/18 - [Final report](https://github.com/rbhan/chbe8803-nuclei-identification/blob/master/final_report.ipynb)
 
 ### 1. Background
 Pathologists use immunohistochemistry (IHC) to detect tumours by identifying and quantifying the presence of

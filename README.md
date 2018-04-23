@@ -10,7 +10,7 @@ Milestones:
 * 02/16/18 - Proposal revision and literature review 
 * 03/01/18 - Initial workflow and peer review 
 * 03/30/18 - Final report draft 
-* 04/17/18 - Presentation
+* 04/17/18 - [Presentation](https://github.com/rbhan/chbe8803-nuclei-identification/blob/master/presentation.ipynb)
 * 04/24/18 - [Final report](https://github.com/rbhan/chbe8803-nuclei-identification/blob/master/final_report.ipynb)
 
 ### 1. Background

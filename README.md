@@ -1,6 +1,6 @@
-# CHBE 8803 Project - Identifying Cell Nuclei in Divergent Images
+# Identifying Cell Nuclei in Divergent Images
 
-Final project, based on Kaggle challenge: https://www.kaggle.com/c/data-science-bowl-2018
+Final project for ChBE 8803, based on Kaggle challenge: https://www.kaggle.com/c/data-science-bowl-2018
 
 Training data: https://www.kaggle.com/c/data-science-bowl-2018/data
 
@@ -47,18 +47,18 @@ separating objects from background in each image, and distinguishing individual 
 low, expected and high success are based on model performance as follows.
 #### Low: Accomplish Goals 1-2. For Goal 3, predict nuclei regardless of accuracy.
 #### Expected: Accomplish Goals 1-3. For Goal 4, achieve
- >60% accuracy, precision, F1 score
- >50% IoU
+* >60% accuracy, precision, F1 score
+* >50% IoU
 #### High: Accomplish Goals 1-3. For Goal 4, achieve
- >80% accuracy, precision, F1 score
- >65% IoU
+* >80% accuracy, precision, F1 score
+* >65% IoU
 
 ### 5 Deliverables
 The key deliverable will be a Jupyter notebook containing:
- Code to normalize the data from different imaging conditions
- Code to detect objects in the image
- Code to identify individual nuclei
- Documentation of the inputs and outputs of all functions
- Quantitative assessment of model accuracy
- Written critical analysis of successes/failures of the model
+* Code to normalize the data from different imaging conditions
+* Code to detect objects in the image
+* Code to identify individual nuclei
+* Documentation of the inputs and outputs of all functions
+* Quantitative assessment of model accuracy
+* Written critical analysis of successes/failures of the model
 

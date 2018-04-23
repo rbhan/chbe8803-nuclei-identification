@@ -13,20 +13,20 @@ Milestones:
 * 04/17/18 - Presentation
 * 04/24/18 - Final report
 
-### 1 Background
+### 1. Background
 Pathologists use immunohistochemistry (IHC) to detect tumours by identifying and quantifying the presence of
 important biomarkers expressed in cell nuclei. However, manual identification is time-consuming, thus it is highly
 desirable to develop an automated, high-accuracy method for isolating and analyzing nuclei in different kinds of
 IHC images.
 
-### 2 Data Description & Challenge
+### 2. Data Description & Challenge
 The dataset is challenging because of high volume and dimensionality. Our data is divided into a training set
 (665 images, each containing between 4 to 384 masks for distinct nuclei) and test set (65 images). The images
 vary in size (total pixels) and were collected from many different cell types under a variety of imaging conditions
 (magnification, modality, etc). To achieve success, we will have to work with all the given data to develop a robust
 method for cell nucleus identification.
 
-### 3 Hypotheses & Goals
+### 3. Hypotheses & Goals
 #### Goal 1. Normalize across set of images.
 The variety of cell type, staining and imaging condition all complicate cell identication. Pre-processing the data
 will ensure comparison across uniform images.
@@ -40,7 +40,7 @@ We will consider statistical metrics important in binary classification (accurac
 well as average precision in image classification as measured by the Jaccard index (also called the intersection over
 union) for a set of predicted pixels A and a set of true object pixels B.
 
-### 4 Definition of Success
+### 4. Definition of Success
 Success is a defined as a work
 ow that consists of pre-processing to normalize variation in imaging condition,
 separating objects from background in each image, and distinguishing individual cell nuclei. The differences in
@@ -53,7 +53,7 @@ low, expected and high success are based on model performance as follows.
 * at least 80% accuracy, precision, F1 score
 * at least 65% IoU
 
-### 5 Deliverables
+### 5. Deliverables
 The key deliverable will be a Jupyter notebook containing:
 * Code to normalize the data from different imaging conditions
 * Code to detect objects in the image
@@ -62,5 +62,5 @@ The key deliverable will be a Jupyter notebook containing:
 * Quantitative assessment of model accuracy
 * Written critical analysis of successes/failures of the model
 
-### 6 Schematic
+### 6. Schematic
 ![Fig 0. Schematic of project workflow](https://github.com/rbhan/chbe8803-nuclei-identification/blob/master/schematic.png)

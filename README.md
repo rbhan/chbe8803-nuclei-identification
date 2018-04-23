@@ -47,11 +47,11 @@ separating objects from background in each image, and distinguishing individual 
 low, expected and high success are based on model performance as follows.
 #### Low: Accomplish Goals 1-2. For Goal 3, predict nuclei regardless of accuracy.
 #### Expected: Accomplish Goals 1-3. For Goal 4, achieve
-* >60% accuracy, precision, F1 score
-* >50% IoU
+* at least 60% accuracy, precision, F1 score
+* at least 50% IoU
 #### High: Accomplish Goals 1-3. For Goal 4, achieve
-* >80% accuracy, precision, F1 score
-* >65% IoU
+* at least 80% accuracy, precision, F1 score
+* at least 65% IoU
 
 ### 5 Deliverables
 The key deliverable will be a Jupyter notebook containing:
@@ -62,3 +62,4 @@ The key deliverable will be a Jupyter notebook containing:
 * Quantitative assessment of model accuracy
 * Written critical analysis of successes/failures of the model
 
+![Fig 0. Schematic of project workflow](schematic.png)
